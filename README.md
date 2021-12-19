@@ -1,3 +1,3 @@
 # c learning
 
-[Temporary.c](number pyramid.cpp)
+[Temporary.c](number pyramid.c)
