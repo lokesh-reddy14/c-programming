@@ -1,3 +1,4 @@
 # c-language
 
-[Temporary.c](number pyramid.c)
+[Temporary.c](profile)
+[number pyramid.cpp](number pyramid.cpp)
