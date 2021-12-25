@@ -20,5 +20,4 @@ int main()
 		printf("special character");
 	}
 }
-© 2021 GitHub, Inc.
-Terms
+
