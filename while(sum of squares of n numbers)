@@ -1,0 +1,14 @@
+#include<stdio.h>
+main()
+{
+	int i=1,n,sum=0,square=0;
+	printf("ENTER VALUE OF n:");
+	scanf("%d",&n);
+	while(i<=n)
+	{
+		square=i*i;
+		sum+=square;
+		i++;
+	}
+	printf("SUM=%d",sum);
+}
