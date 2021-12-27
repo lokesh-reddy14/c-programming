@@ -1,0 +1,17 @@
+//FIBONACCI SERIES(USER SHOULD GIVE HOW MANY NUMBERS SHOULD BE DISPLAYED)
+#include<stdio.h>
+main()
+{
+	int a=0,b=1,c=0,n,i=1;
+	printf("ENTER NUMBER OF NUMBERS OF THE SERIES TO BE PRINTED:");
+	scanf("%d",&n);	
+	printf("%d\n%d",a,b);
+	while(i<=n-2)
+	{
+		c=a+b;
+        printf("\n%d",c);
+		a=b;
+		b=c;
+		i++;		
+		}
+}
