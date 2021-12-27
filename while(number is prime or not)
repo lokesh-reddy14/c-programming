@@ -1,0 +1,24 @@
+//CHECK WHETHER A NUMBER IS PRIME OR NOT
+#include<stdio.h>
+main()
+{
+	int num,count=0,i=1;
+	printf("ENTER NUMBER:");
+	scanf("%d",&num);
+	while(i<=num)
+	{
+		if(num%i==0)
+		{
+			count++;
+		}
+		i++;
+	}
+	if(count==2)
+	{
+		printf("%d IS A PRIME NUMBER",num);
+	}
+	else
+	{
+		printf("%d IS NOT A PRIME NUMBER",num);
+	}
+}
