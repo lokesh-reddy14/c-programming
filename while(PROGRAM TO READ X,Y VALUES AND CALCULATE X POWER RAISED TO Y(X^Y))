@@ -1,0 +1,14 @@
+//PROGRAM TO READ X,Y VALUES AND CALCULATE X POWER RAISED TO Y(X^Y)
+#include<stdio.h>
+main()
+{
+	int x,y,power=1,i=1;
+	printf("ENTER VALUES FOR BASE AND EXPONENT");
+	scanf("%d%d",&x,&y);
+	while(i<=y)
+	{
+		power*=x;
+		i++;
+	}
+	printf("%d POWER %d=%d",x,y,power);
+}
